@@ -1,0 +1,115 @@
+h1 {
+    color: blue;
+}
+
+.container {
+    width: 850px;
+    height: 1000px;
+    margin: 0 auto;
+   
+}
+
+.box01 {
+
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    float: left;
+}
+
+.box02 {
+    width: 650px;
+    height: 100px;
+    background-color: pink;
+    float: right;
+}
+
+.box03 {
+    width: 650px;
+    height: 100px;
+    background-color: rgb(255, 251, 0);
+    float: right;
+}
+
+.box04 {
+    width: 850px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    color: white
+}
+
+.box05 {
+    width: 650px;
+    height: 500px;
+    background-color: green;
+    float: left;
+}
+
+.box06 {
+    width: 200px;
+    height: 500px;
+    background-color: gray;
+    float: right;
+}
+
+.box07 {
+    width: 850px;
+    height: 300px;
+    background-color: aqua;
+    float: left;
+
+}
+
+p {
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .box01,
+    .box02,
+    .box03,
+    .box04,
+    .box05,
+    .box06,
+    .box07 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .box01 {
+        
+        background-color: black;
+    }
+
+    .box05 {
+       
+        background-color: yellow;
+    }
+
+    p {
+        color: blue
+    }
+
+
+}
+
+@media only screen and (max-width:1000px) {
+    .box01 {
+     
+        background-color: yellow;
+    }
+
+    .box05 {
+      
+        background-color: yellow;
+    }
+ 
+    p {
+        color: rgb(213, 20, 20);
+    }
+}
